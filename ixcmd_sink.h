@@ -12,8 +12,8 @@
 class IXCmdSink
 {
 public:
-     virtual void OnXError(uint32_t err_id, const char* err_msg_ ) = 0;
-	 virtual void OnXEvent(uint32_t event_id, XHealthPara data) = 0;
+     virtual void sdf(uint32_t err_id, const char* err_msg_ ) = 0;
+	 virtual void OnXEvent(uint32_t event_id, asdfs data) = 0;
 };
 
 #endif // IXCMD_SINK_H
